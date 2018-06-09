@@ -1,0 +1,29 @@
+body{
+  font-family: 'Limelight', cursive;
+  color: white;
+  background: url(red-curtains.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.game-content {
+  height: 405px;
+  border-radius: 25px;
+  padding: auto;
+  background-color: #b30000;
+  opacity: .55;
+}
+
+p {
+  font-size: 18px;
+}
+
+.content {
+  background-color: #b30000;
+  opacity: .55;
+  padding: 2px;
+  margin-top: 40px;
+  border-radius: 25px;  
+}

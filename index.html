@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
+
+  <title>Word Guess Game</title>
+</head>
+
+<body>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <div class="jumbotron jumbotron-fluid content">
+          <div class="container">
+
+            <h1 class="display-3">Word Guess Game</h1>
+            <p class="lead">Broadway Musicals!</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+  <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row justify-content-center">
+              <div class="col-lg-4 border text-center game-content">
+
+                <p class="instructions">Press Any Key to Begin! 
+                <br> Press Enter to reset game!</p>
+    
+                <p class="text-win">Wins</p>
+                <p id="win-counter">stand-in</p>
+    
+                <p class="Current Word">Current Word</p>
+                <p id="current-word"></p>
+    
+                <p class"guesses">Number of Guesses Remaining</p>
+                <p id="guess-counter">stand-in</p>
+    
+                <p class="letters-guessed">Already Guessed</p>
+                <p id="current-guess"></p>
+              </div>
+
+              <div class="col-lg-1"></div>
+
+              <div class="col-lg-6 border text-center game-content">
+    
+                    <p id="text"></p>
+                    <p id="image"></p>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>  
+
+  <script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
